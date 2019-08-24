@@ -25,4 +25,7 @@ router.post('/',[
     res.send('User created successfully');
 });
 
+    res.send('User route');
+});
+
 module.exports = router;
